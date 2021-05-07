@@ -160,6 +160,8 @@ body {
   max-width: 1000px;
   margin: 10px auto;
   position: relative;
+  display: table;
+  table-layout: fixed;
   border-spacing: 10px auto;
 }
 
@@ -167,7 +169,7 @@ body {
 .persons:after {
   clear: both;
   content: " ";
-  display: table;
+  
 }
 
 .persons .person {
