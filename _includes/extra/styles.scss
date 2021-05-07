@@ -160,14 +160,8 @@ body {
   max-width: 1000px;
   margin: 10px auto;
   position: relative;
-  justify-content: space-between;
-}
-
-.persons:before,
-.persons:after {
-  clear: both;
-  content: " ";
   display: table;
+  justify-content: space-between;
 }
 
 .persons .person {
