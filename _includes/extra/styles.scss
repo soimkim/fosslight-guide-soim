@@ -167,11 +167,12 @@ body {
   clear: both;
   content: " ";
   display: table;
+  margin: 10px;
 }
 
 .persons .person {
   width: 17%;
-  margin: 10px;
+  margin: 10px auto;
   display: table-cell;
   float: left;
   cursor: pointer;
