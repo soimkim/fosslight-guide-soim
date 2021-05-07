@@ -160,21 +160,18 @@ body {
   max-width: 1000px;
   margin: 10px auto;
   position: relative;
-  display: table;
-  table-layout: fixed;
-  border-spacing: 10px auto;
 }
 
 .persons:before,
 .persons:after {
   clear: both;
   content: " ";
-  
+  display: table;
 }
 
 .persons .person {
   width: 17%;
-  margin: 10px auto;
+  margin: 10px;
   display: table-cell;
   float: left;
   cursor: pointer;
