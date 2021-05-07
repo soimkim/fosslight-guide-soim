@@ -156,7 +156,7 @@ body {
 .person-container { width: 100%;}
 
 .persons {
-  padding: 20px auto;
+  padding: 10px auto;
   max-width: 1000px;
   margin: 10px auto;
   position: relative;
@@ -170,8 +170,8 @@ body {
 }
 
 .persons .person {
-  width: 17%;
-  margin: 10px;
+  width: 20%;
+  margin: 10px auto;
   display: table;
   float: left;
   cursor: pointer;
