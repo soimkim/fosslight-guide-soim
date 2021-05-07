@@ -160,6 +160,7 @@ body {
   max-width: 1000px;
   margin: 10px auto;
   position: relative;
+  justify-content: space-between;
 }
 
 .persons:before,
@@ -170,8 +171,8 @@ body {
 }
 
 .persons .person {
-  width: 20%;
-  margin: 10px 20px 10px auto;
+  width: 27%;
+  margin: 10px auto;
   display: table;
   float: left;
   cursor: pointer;
